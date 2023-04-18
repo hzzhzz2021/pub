@@ -1,0 +1,4 @@
+注释：ctrl+/
+删除：ctrl+d
+保存：ctrl+s
+

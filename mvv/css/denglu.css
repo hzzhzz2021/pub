@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/* 页面添加背景 */
+body{
+	height: 100vh;
+	/* 背景颜色 */
+	/* background-color: pink; */
+	/* 背景渐线性变色 */
+	background-image: /* linear */-gradient(to bottom, pink, white, yellow, skyblue);
+	/* 背景色环形渐变 */
+	/* background-image: radial-gradient(pink, white,yellow); */
+	/* 背景图片 */
+	background-image:url('../img/img7.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/* 表单样式 */
+form{
+	width: 450px;
+	/* 标签水平居中 */
+	margin: 20px auto;
+	background-color: white;
+	padding: 30px 50px;
+	/* 圆角弧度 */
+	border-radius: 10px;
+	/* 透明度 */
+	opacity: 0.8;
+}
+.title{
+	text-align: center;
+	font-size: 36px;
+}
+.info{
+	width: 320px;
+	height: 30px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	/* 设置背景图片不重复 */
+	background-repeat: no-repeat;
+	/* 背景图片的大小 */
+	background-size: 28px 28px;
+	padding-left: 40px;
+}
+.btn{
+	text-align: center;
+}
+.btn input{
+	width: 60px;
+	height: 30px;
+	border: none;
+	background-color: rgba(255, 194, 204, 1);
+	border-radius: 10px;
+}
+td{
+	padding: 10px 0;
+}

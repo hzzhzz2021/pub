@@ -1,0 +1,23 @@
+.name, .type, .price, .btn{
+	width: 150px;
+	height: 30px;
+	border-radius: 10px;
+	border: 1px solid gray;
+}
+
+.type {
+	width: 100px;
+}
+.price{
+	width: 70px;
+}
+.btn{
+	width: 50px;
+	border: none;
+	background-color: pink;
+}
+
+form{
+	width: 650px;
+	margin: auto;
+}

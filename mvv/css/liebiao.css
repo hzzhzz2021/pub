@@ -1,0 +1,17 @@
+table{
+	width: 800px;
+	/* 整个表格居中 */
+	margin: 20px auto;
+	/* 去掉表格中的缝隙 */
+	border-collapse: collapse;
+	/* 文字居中 */
+	text-align: center;
+}
+/* 设置表格的行高 */
+tr{
+	height: 40px;
+}
+/* 设置表格的边框线 */
+td,th{
+	border: 1px dotted gray;
+}
